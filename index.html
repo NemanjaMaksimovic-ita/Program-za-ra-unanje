@@ -1,0 +1,33 @@
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Obavljanje aritmetičkih funkcija</title>
+  </head>
+  <body>
+      <script>
+           var broj1 = prompt("Unesite prvi broj:");
+           var operacija = prompt("Unesite znak za računanje:");
+           var broj2 = prompt("Unesite drugi broj:");
+
+          
+           if ( operacija == "+"){
+             result = parseFloat(broj1) + parseFloat(broj2);
+           }
+           else if ( operacija == "-"){
+            result = parseFloat(broj1) - parseFloat(broj2);
+           }
+           else if (operacija == "*") {
+            result = parseFloat(broj1) * parseFloat(broj2);
+           }
+           else if ( operacija == "/") {
+            result = parseFloat(broj1) / parseFloat(broj2);
+           }
+
+           alert ('Rezultat je: ' + result);
+           
+
+      </script>
+  </body>
+  </html>
